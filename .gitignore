@@ -1,0 +1,15 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore results folder. Too Big
+Input/*
+!Input/.gitkeep
+# Ignore results Folder. Maybe too big.
+results/*
+!results/.gitkeep
+#Ignore bestSfor_* not relevant for other users. Run the algorithm your self for correct best s.
+best_s/*
+!best_s/.gitkeep
